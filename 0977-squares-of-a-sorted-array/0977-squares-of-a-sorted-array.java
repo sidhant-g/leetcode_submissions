@@ -20,7 +20,7 @@ class Solution {
         i = 0;
         Collections.reverse(nega);
         
-        while (i < nega.size() && j < posi.size()) {  //both elem have elem left
+        while (i < nega.size() && j < posi.size()) {  //both ArrayList have elem left
             if (nega.get(i) < posi.get(j)) {
                 result.add(nega.get(i));
                 i++;

@@ -1,14 +1,14 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int j =0;
+        int i=0;
         int total = m+n;
-        while (j<n){
-            nums1[m]=nums2[j];
+        while (i<n){
+            nums1[m]=nums2[i];
             m++;
-            j++;            
+            i++;            
         }
         int temp;
-        int i  =0 ;
+        i  =0 ;
 
         while(i<total-1){
              if(nums1[i]>nums1[i+1]){

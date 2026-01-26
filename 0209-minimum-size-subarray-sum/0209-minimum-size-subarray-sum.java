@@ -12,12 +12,15 @@ class Solution {
                 continue;
             }
             else{
-                high=i;
+                high=i;         //first window found...
             }
             if(sum>=target){
-                while(high<n && low<n){
-                    len= Math.min(len, high-low+1);
+                len= Math.min(len, high-low+1);     //length of 1st sliding window stored...
+                while(high<n && low<n){                    
                     low++;
+                    if(low==n){
+                        return len;        
+                    }
                     sum = sum -nums[low-1];
                     if(sum>=target){
                         len=Math.min(len, high-low+1);
@@ -35,11 +38,6 @@ class Solution {
             }
             
         }
-        if(len==Integer.MAX_VALUE){
-            return 0 ;
-        }
-        else{
-            return len;
-        }
+        return 0 ;        
     }
 }

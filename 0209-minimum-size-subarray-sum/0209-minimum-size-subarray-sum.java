@@ -6,38 +6,20 @@ class Solution {
         int high=low;
         int sum=0;
 
-        for(int i=low;  i<n; i++){
-            sum += nums[i];
-            if(sum<target){
-                continue;
+        while(high<n){
+            sum+= nums[high];               //keep hiring till kaam na hoye
+            while(sum>=target){
+                len = Math.min(len, high-low+1);    //update smallest len
+                low++;
+                sum-= nums[low-1];           //keep firing if kaam horha
             }
-            else{
-                high=i;         //first window found...
-            }
-            if(sum>=target){
-                len= Math.min(len, high-low+1);     //length of 1st sliding window stored...
-                while(high<n && low<n){                    
-                    low++;
-                    if(low==n){
-                        return len;        
-                    }
-                    sum = sum -nums[low-1];
-                    if(sum>=target){
-                        len=Math.min(len, high-low+1);
-                    }
-                    else{
-                        high++;
-                        if(high==n){
-                            return len;
-                            
-                        }
-                        sum+=nums[high];
-                        len = Math.min(len,high-low+1);
-                    }
-                } 
-            }
-            
+            high++;                         //again hire if kaam nii hora
+        }  
+        if(len==Integer.MAX_VALUE){
+            return 0;                       //NO sum>=target found
         }
-        return 0 ;        
+        else{
+            return len;
+        }
     }
 }

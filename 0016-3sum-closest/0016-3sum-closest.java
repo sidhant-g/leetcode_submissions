@@ -8,9 +8,7 @@ class Solution {
         Arrays.sort(nums);
 
         for (int i=0 ; i<n-2 ;i++){
-            if (i>0 && nums[i]== nums[i-1]){
-                continue;
-            }
+            
             int l=i+1;
             int r=n-1;
             while(l<r){
@@ -29,15 +27,15 @@ class Solution {
 
             }
         }
-        int diff1 = target - max ;
-        int diff2 = min -target;
+        int diff1 = Math.abs(target - max );
+        int diff2 = Math.abs(target-min);
         if(diff1 == diff2 ){
             return max;     //OR min (same same)
         }
-        else if (diff1<diff2 || diff1 == target){    //max closer to target
+        else if (diff1<diff2 ){    //max closer to target
             return max;
         }
-        else {          //diff2<diff1 diff2==target
+        else {          //diff2<diff1 
             return min;            //min is closer to target
         }
     }

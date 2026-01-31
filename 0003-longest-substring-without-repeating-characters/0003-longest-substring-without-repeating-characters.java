@@ -13,6 +13,9 @@ class Solution {
             else{
                 while(map.get(s.charAt(high))!=1){
                     map.put(s.charAt(low), map.get(s.charAt(low))-1);
+                    if(map.get(s.charAt(low))==0){
+                        map.remove(s.charAt(low));
+                    }
                     low++;
                 }
                 high++;

@@ -1,18 +1,22 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int low=0, high=0, res=Integer.MIN_VALUE, n=s.length(), diff, mostFreqVal=0 ; 
+        int low=0, high=0, res=Integer.MIN_VALUE, n=s.length(), diff ; 
 
         Map<Character, Integer> map = new HashMap<>();
 
         while(high<n){
             map.put(s.charAt(high), map.getOrDefault(s.charAt(high),0)+1);
 
-            mostFreqVal = Math.max(mostFreqVal, map.get(s.charAt(high)));
-
+            int mostFreqVal = 0;
+            for(Map.Entry<Character, Integer> entry : map.entrySet()){
+                if(entry.getValue() > mostFreqVal){
+                    mostFreqVal = entry.getValue();
+                }
+            }
             diff = (high -low+1) - mostFreqVal ;  /*(currLength-mostfreq apprearing val)
                                                     To count the no of values that need to be modified.*/
 
-            if(diff<=k){    //valid window found.
+            if(diff<=k){    //valid window
                 res=Math.max(res, high -low+1 );
                 high++;      //window expands
             }

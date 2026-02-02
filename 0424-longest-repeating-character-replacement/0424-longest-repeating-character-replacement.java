@@ -7,11 +7,8 @@ class Solution {
         while(high<n){
             map.put(s.charAt(high), map.getOrDefault(s.charAt(high),0)+1);
 
-            for(Map.Entry<Character, Integer> entry : map.entrySet()){
-                if(entry.getValue() > mostFreqVal){
-                    mostFreqVal = entry.getValue();
-                }
-            }
+            mostFreqVal = Math.max(mostFreqVal, map.get(s.charAt(high)));
+            
             diff = (high -low+1) - mostFreqVal ;  /*(currLength-mostfreq apprearing val)
                                                     To count the no of values that need to be modified.*/
 

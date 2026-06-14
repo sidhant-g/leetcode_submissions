@@ -5,10 +5,10 @@ class Solution(object):
         anagram_map = defaultdict(list)
 
         for s in strs:
-            sorted_strings = tuple(sorted(s))
-            anagram_map[sorted_strings].append(s)
+            key = tuple(sorted(s))
+            anagram_map[key].append(s)
 
         for value in anagram_map.values():
             result.append(value)
         
-        return result
+        return result   #OR return list(anagram_map.values())

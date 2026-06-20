@@ -1,16 +1,14 @@
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         i=0
-        j=i+1
         n=len(nums)
         if n==1:
             return nums[i]
-        while i<n-1 and j<n:
-            if nums[i]==nums[j]:
+        while i<n-1 :
+            if nums[i]==nums[i+1]:
                 i+=2
-                j+=2
-                if j==n:
-                    return nums[n-1]
-            else:
+                if i==n-1:
+                    return nums[i]
+            else:      
                 return nums[i]
         

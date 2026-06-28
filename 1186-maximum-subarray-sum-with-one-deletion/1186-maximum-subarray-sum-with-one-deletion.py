@@ -10,8 +10,8 @@ class Solution:
             prev_onedelete=onedelete    #store prev onedelete for curr iteration
             nodelete = max(arr[i], prev_nodelete+arr[i])    #can contain either num itself or prevnodelete+num
             if prev_onedelete == float('-inf'): #no number deleted
-                v2 = arr[i] #if nothing deleted then only we can keep arr[i] in onedelete 
-                            #v2=arr[i] means we are starting at arr[i]
+                v2 = arr[i] #if no num deleted it means we are at the starting of the arr
+                            #bcz we delete for each arr[i] using onedelete
             else:
                 v2 = prev_onedelete + arr[i]
             onedelete = max(v2, prev_nodelete)  #prevnodelete bcz if we delete current elem then prevnodelete is the value

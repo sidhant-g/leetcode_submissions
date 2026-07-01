@@ -6,6 +6,7 @@ class Solution:
         zeroes=0
         ones=0
         mp = defaultdict(list)
+        mp[0] = -1  #initialise hashmap with assumption that 0 found at -1 index.
         for i in range(n):
             if nums[i]==0:
                 zeroes+=1
@@ -15,7 +16,5 @@ class Solution:
             if diff not in mp:
                 mp[diff] = i
             idx = mp[diff]  #tells the smallest ending index of any subarr(if present) with same number of extra ones
-            if ones == zeroes:  #longest subarr found
-                res = ones+zeroes
-            res = max(res, i-idx)
+            res = max(res, i-idx)   #i-idx gives len of valid subarr
         return res

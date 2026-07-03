@@ -8,6 +8,7 @@ class Solution:
         for i in range(1,n):
             start2=intervals[i][0]
             end2=intervals[i][1]
+            #merge logic
             if end1>=start2:
                 start1 = min(start1, start2)
                 end1 = max(end1, end2)

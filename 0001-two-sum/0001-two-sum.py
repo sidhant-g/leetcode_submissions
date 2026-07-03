@@ -4,7 +4,7 @@ class Solution:
         curr = 0
         map = defaultdict(int)
         while curr < len(nums):
-            required = target - nums[curr]
+            required = target - nums[curr]  #what shd be added to curr to make it equal to target
             if required in map:
                 return (map.get(required),curr)
             else:

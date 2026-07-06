@@ -1,20 +1,23 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        ans = []
-        n=len(nums1)
-        m=len(nums2)
-        for i in range(0, n):
-            j=0
-            while j<m and nums2[j] != nums1[i]:
-                j+=1
-            # if j == m here it means no elem in nums2 is equal to nums1[i]
-            k=j
-            j=k+1
-            while j<m:  
-                if nums2[j]>nums2[k] :
-                    ans.append(nums2[j])         
-                    break
-                j+=1
-            if j==m:
-                ans.append(-1)
-        return ans
+        m = len(nums1)
+        n = len(nums2)
+        res = [-1] * m
+        j=0
+        stack = []
+        mp = defaultdict(int)
+        for i in range (0,m):   #maps elem of nums1 to their index
+            mp[nums1[i]] = i  
+        while j < n:
+            # only insert in stack if the nums2[j] is present in nums1 and other considions
+            if  nums2[j] in mp and (not stack or nums2[j]<= stack[-1]) : 
+                stack.append(nums2[j])
+            else:   # nums2[j] not in nums1 or nums2[j] > stack.(top)
+                while stack and nums2[j] > stack[-1]:
+                    index = mp[stack[-1]]
+                    res[index] = nums2[j]
+                    stack.pop()
+                if nums2[j] in mp:  #if the greater elem found is present in map then append
+                    stack.append(nums2[j])
+            j+=1
+        return res

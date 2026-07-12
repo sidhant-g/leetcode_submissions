@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/sidhant-g/leetcode_submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/sidhant-g/leetcode_submissions/tree/master/0202-happy-number) |
+| [0383-ransom-note](https://github.com/sidhant-g/leetcode_submissions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/sidhant-g/leetcode_submissions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/sidhant-g/leetcode_submissions/tree/master/0424-longest-repeating-character-replacement) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/sidhant-g/leetcode_submissions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/sidhant-g/leetcode_submissions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/sidhant-g/leetcode_submissions/tree/master/0076-minimum-window-substring) |
+| [0383-ransom-note](https://github.com/sidhant-g/leetcode_submissions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/sidhant-g/leetcode_submissions/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/sidhant-g/leetcode_submissions/tree/master/0424-longest-repeating-character-replacement) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/sidhant-g/leetcode_submissions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0387-first-unique-character-in-a-string) |
 ## Greedy
 |  |

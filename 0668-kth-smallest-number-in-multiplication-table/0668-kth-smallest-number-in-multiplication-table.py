@@ -5,7 +5,7 @@ class Solution:
         res = 0
         while low<= high:
             mid = (low+ high )// 2
-            ans = self.countSmallerOccurences( m, n, k, mid)
+            ans = self.countSmallerOccurences( m, n, mid)
             if ans < k: # no enough smaller elem present for this mid 
                 low = mid+1
             elif ans>= k:   #enough smaller elem present for curr mid 
@@ -13,7 +13,7 @@ class Solution:
                 high = mid-1   #maybe another mid possible where also k smaller elem possible
         return res
 
-    def countSmallerOccurences (self, m: int, n: int, k: int, mid: int) -> int:
+    def countSmallerOccurences (self, m: int, n: int, mid: int) -> int:
         row = m
         col = 1
         count = 0

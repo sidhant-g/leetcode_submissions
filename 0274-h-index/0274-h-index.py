@@ -1,30 +1,16 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         citations.sort()
-        low = 0 #no citations received for any research paper
-        high = max(citations)
-        ans = 0
-        while low <= high:
-            guess = (low+high) // 2
-            hIndexValid = self.fun(citations, guess)
-            if hIndexValid: #valid hIndex
-                ans = guess
-                low = guess+1 #increase hIndex
+        n = len(citations)
+        low = 0
+        high = len(citations) - 1
+        h=0     #no papers published and no citations received
+        while low<= high :
+            mid = (low+high) // 2
+            paperPublished = n-mid  
+            if citations[mid] >= paperPublished:
+                h = paperPublished  #valid hIndex found
+                high = mid -1
             else:
-                high = guess-1
-        return ans
-        
-    def fun(self, citations: List[int], guess: int) -> bool:
-        l = 0
-        h = len(citations) - 1
-        count = 0   #tells if our hIndex is valid or not
-        while l<=h:
-            mid = (l+h)//2
-            if citations[mid] >= guess:
-                count = len(citations) - mid
-                h = mid-1
-            else:   #citations[mid] < hIndex
-                l = mid+1
-        if count >= guess:
-            return True
-        return False
+                low = mid+1     # not many citations received for papers published so reduce paperPublised
+        return h

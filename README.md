@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0274-h-index](https://github.com/sidhant-g/leetcode_submissions/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/sidhant-g/leetcode_submissions/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sidhant-g/leetcode_submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/sidhant-g/leetcode_submissions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0503-next-greater-element-ii) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/sidhant-g/leetcode_submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/sidhant-g/leetcode_submissions/tree/master/0202-happy-number) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/sidhant-g/leetcode_submissions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/sidhant-g/leetcode_submissions/tree/master/0409-longest-palindrome) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/sidhant-g/leetcode_submissions/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sidhant-g/leetcode_submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0977-squares-of-a-sorted-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0977-squares-of-a-sorted-array) |
 ## Sliding Window
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/sidhant-g/leetcode_submissions/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/sidhant-g/leetcode_submissions/tree/master/0918-maximum-sum-circular-subarray) |
 ## Dynamic Programming
 |  |
@@ -205,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/sidhant-g/leetcode_submissions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0387-first-unique-character-in-a-string) |
 ## Greedy
@@ -221,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sidhant-g/leetcode_submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Counting Sort
 |  |
@@ -230,4 +236,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sidhant-g/leetcode_submissions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->

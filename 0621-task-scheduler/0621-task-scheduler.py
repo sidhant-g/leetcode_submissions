@@ -5,7 +5,7 @@ class Solution:
         for task in tasks:
             mp[task] +=1
         for task, freq in mp.items():
-            heapq.heappush(heap, (-freq))
+            heapq.heappush(heap, (-freq))   #max heap
         time = 0    #CPU time = total tasks+idle time
         while heap:
             remain = []     #store the count of remaining tasks in this

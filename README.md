@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/sidhant-g/leetcode_submissions/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/sidhant-g/leetcode_submissions/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0630-course-schedule-iii) |
 | [0692-top-k-frequent-words](https://github.com/sidhant-g/leetcode_submissions/tree/master/0692-top-k-frequent-words) |
 | [0704-binary-search](https://github.com/sidhant-g/leetcode_submissions/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/sidhant-g/leetcode_submissions/tree/master/0724-find-pivot-index) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sidhant-g/leetcode_submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/sidhant-g/leetcode_submissions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/sidhant-g/leetcode_submissions/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0630-course-schedule-iii) |
 | [0692-top-k-frequent-words](https://github.com/sidhant-g/leetcode_submissions/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/sidhant-g/leetcode_submissions/tree/master/0977-squares-of-a-sorted-array) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/sidhant-g/leetcode_submissions/tree/master/0409-longest-palindrome) |
 | [0502-ipo](https://github.com/sidhant-g/leetcode_submissions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/sidhant-g/leetcode_submissions/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0630-course-schedule-iii) |
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 ## Matrix
 |  |
@@ -249,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sidhant-g/leetcode_submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/sidhant-g/leetcode_submissions/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/sidhant-g/leetcode_submissions/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0630-course-schedule-iii) |
 | [0692-top-k-frequent-words](https://github.com/sidhant-g/leetcode_submissions/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 | [1046-last-stone-weight](https://github.com/sidhant-g/leetcode_submissions/tree/master/1046-last-stone-weight) |

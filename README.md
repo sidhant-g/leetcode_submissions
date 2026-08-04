@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/sidhant-g/leetcode_submissions/tree/master/1046-last-stone-weight) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sidhant-g/leetcode_submissions/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/sidhant-g/leetcode_submissions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/sidhant-g/leetcode_submissions/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Hash Table
 |  |
 | ------- |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/sidhant-g/leetcode_submissions/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/0630-course-schedule-iii) |
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/sidhant-g/leetcode_submissions/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Matrix
 |  |
 | ------- |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/sidhant-g/leetcode_submissions/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 | [1046-last-stone-weight](https://github.com/sidhant-g/leetcode_submissions/tree/master/1046-last-stone-weight) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/sidhant-g/leetcode_submissions/tree/master/1962-remove-stones-to-minimize-the-total) |
 ## Counting Sort
 |  |
 | ------- |

@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 | [0904-fruit-into-baskets](https://github.com/sidhant-g/leetcode_submissions/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/sidhant-g/leetcode_submissions/tree/master/0974-subarray-sums-divisible-by-k) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/sidhant-g/leetcode_submissions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Two Pointers
 |  |
 | ------- |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/sidhant-g/leetcode_submissions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/sidhant-g/leetcode_submissions/tree/master/1004-max-consecutive-ones-iii) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/sidhant-g/leetcode_submissions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/sidhant-g/leetcode_submissions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/sidhant-g/leetcode_submissions/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/sidhant-g/leetcode_submissions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Linked List
 |  |
 | ------- |

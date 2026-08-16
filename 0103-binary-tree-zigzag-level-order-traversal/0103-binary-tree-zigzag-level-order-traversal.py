@@ -8,26 +8,30 @@ class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         queue = deque()
         queue.append(root)
-        curr_level = 0
         res = []
+        leftToRight = 1 #root insertion starts from left to right
         if root == None:
             return []
         while queue:
             level_size = len(queue)
-            tmp = []
-            curr_level += 1
+            tmp = [None] * level_size
+            #size of tmp or total nodes in this level
+            first = 0
+            last = level_size - 1
             while level_size:
                 t = queue [0]
                 queue.popleft()
-                tmp.append(t.val)
+                if leftToRight :
+                    tmp[first] = t.val
+                    first+=1
+                else:               #insert righttoLeft for this level
+                    tmp[last] = t.val   #the leftmost node is inserted at rightmost position
+                    last-=1
                 if t.left != None:
                     queue.append(t.left)
                 if t.right != None:
                     queue.append(t.right)
                 level_size -=1
-            if curr_level %2 == 0:  #even level 
-                tmp.reverse()
-                res.append(tmp)
-            else:                   #odd level
-                res.append(tmp)
+            res.append(tmp)
+            leftToRight = not leftToRight
         return res                    

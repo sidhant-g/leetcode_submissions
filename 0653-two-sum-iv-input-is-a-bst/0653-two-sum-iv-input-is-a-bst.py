@@ -9,7 +9,7 @@ class Solution:
         node = root
         asc = []    #stack to store min elem 
         desc = []   #stack to store max elem 
-        if node == None:
+        if node == None:    #empty tree
             return False
         while node:     #keep storing in min stack while next left node is  not null
             asc.append(node)

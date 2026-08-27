@@ -8,7 +8,7 @@ class Solution:
     currSum = 0
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         self.currSum = 0
-        path = ""
+        path = 0 
         node = root
         self.helper(node, path)
         return self.currSum
@@ -16,10 +16,10 @@ class Solution:
     def helper(self, node: Optional[TreeNode], path: str) -> None:
         if not node:
             return
-        path += str(node.val)
+        path = path * 10 + node.val
         if (not node.left) and (not node.right):
-            self.currSum += int(path)
+            self.currSum += path
 
         self.helper(node.left, path)
         self.helper(node.right, path)
-        path = path[:-1]
+        path = path - (path % 10)

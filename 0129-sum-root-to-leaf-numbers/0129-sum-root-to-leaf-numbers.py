@@ -5,21 +5,24 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    currSum = 0
+    res = 0
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        self.currSum = 0
-        path = 0 
+        currSum = 0 
+        res = 0
         node = root
-        self.helper(node, path)
-        return self.currSum
+        self.helper(node, currSum, res)
+        return self.res
 
-    def helper(self, node: Optional[TreeNode], path: str) -> None:
-        if not node:
-            return
-        path = path * 10 + node.val
-        if (not node.left) and (not node.right):
-            self.currSum += path
+    def helper (self, node: Optional[TreeNode],  currSum: int, res: list[int]) -> None:
+        if node is None : 
+            return 
 
-        self.helper(node.left, path)
-        self.helper(node.right, path)
-        path = path - (path % 10)
+        currSum  = (currSum*10)+node.val
+
+        if node.left == None and node.right == None:
+            self.res+=currSum
+            return 
+        
+        self.helper(node.left, currSum, res)
+        self.helper(node.right, currSum, res)
+        return

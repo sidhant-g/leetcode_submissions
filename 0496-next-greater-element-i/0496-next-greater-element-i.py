@@ -13,7 +13,7 @@ class Solution:
             if  nums2[j] in mp and (not stack or nums2[j]<= stack[-1]) : 
                 stack.append(nums2[j])
             else:   # nums2[j] not in nums1 or nums2[j] > stack.(top)
-                while stack and nums2[j] > stack[-1]:
+                while stack and nums2[j] > stack[-1]: #condn to check if its safe to pop eg n1[4,2] n2[4,2,3] stack=[4,2] j=2
                     index = mp[stack[-1]]
                     res[index] = nums2[j]
                     stack.pop()

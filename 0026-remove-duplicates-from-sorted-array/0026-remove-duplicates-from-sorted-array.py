@@ -4,7 +4,7 @@ class Solution:
         j=0
         n = len(nums)
         for j in range(n):
-            if i<1 or nums[j] != nums[i-1]: 
-                nums[i] = nums[j]
+            if nums[j] != nums[i]: 
+                nums[i+1] = nums[j]
                 i+=1
-        return i   
+        return i+1  #total number of unique elem   
